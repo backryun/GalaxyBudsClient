@@ -17,6 +17,11 @@ jobs:
     
     steps:
     - uses: actions/checkout@v6
+    - name: Setup Xcode
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: "27.2"
+
     - name: Setup .NET
       uses: actions/setup-dotnet@v5
       with:
@@ -49,6 +54,11 @@ jobs:
     
     steps:
     - uses: actions/checkout@v6
+    - name: Setup Xcode
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: "27.2"
+
     - name: Setup .NET
       uses: actions/setup-dotnet@v5
       with:
@@ -81,6 +91,11 @@ jobs:
     
     steps:
     - uses: actions/checkout@v6
+    - name: Setup Xcode
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: "27.2"
+
     - name: Setup .NET
       uses: actions/setup-dotnet@v5
       with:
