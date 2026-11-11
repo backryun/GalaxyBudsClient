@@ -30,7 +30,7 @@
         <RuntimeIdentifiers>osx-x64;osx-arm64</RuntimeIdentifiers>
         <_XSAppIconAssets>Assets.xcassets/AppIcon.appiconset</_XSAppIconAssets>
         <AssemblyName>Galaxy Buds Manager</AssemblyName>
-        <SupportedOSPlatformVersion>12.0</SupportedOSPlatformVersion>
+        <SupportedOSPlatformVersion>14.0</SupportedOSPlatformVersion>
     </PropertyGroup>
     <PropertyGroup Condition="'$(IsLinux)'=='true'">
         <OutputType>Exe</OutputType>
