@@ -123,7 +123,7 @@
         </PackageReference>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="11.0.0" />
         <PackageReference Include="ReactiveUI.Fody" Version="19.5.41" /> <!-- Needed due to workaround in SettingsData.cs -->
-        <PackageReference Include="ReactiveUI.SourceGenerators" Version="2.6.30" PrivateAssets="all" />
+        <PackageReference Include="ReactiveUI.SourceGenerators" Version="2.5.1" PrivateAssets="all" />
         <PackageReference Include="ScottPlot.Avalonia" Version="5.1.57" />
         <PackageReference Include="Sentry" Version="6.12.1" />
         <PackageReference Include="Sentry.Serilog" Version="6.12.1" />
