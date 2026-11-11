@@ -13,15 +13,10 @@ on:
 
 jobs:
   build-universal:
-    runs-on: macos-26
+    runs-on: xcode-27
     
     steps:
     - uses: actions/checkout@v6
-    - name: Setup Xcode
-      uses: maxim-lobanov/setup-xcode@v1
-      with:
-        xcode-version: "26.6"
-
     - name: Setup .NET
       uses: actions/setup-dotnet@v5
       with:
@@ -50,15 +45,10 @@ jobs:
         path: bin_osx/Galaxy Buds Manager-*.pkg
 
   build-x64:
-    runs-on: macos-26
+    runs-on: xcode-27
     
     steps:
     - uses: actions/checkout@v6
-    - name: Setup Xcode
-      uses: maxim-lobanov/setup-xcode@v1
-      with:
-        xcode-version: "26.6"
-
     - name: Setup .NET
       uses: actions/setup-dotnet@v5
       with:
@@ -87,15 +77,10 @@ jobs:
         path: bin_osxx64/Galaxy Buds Manager-*.pkg
 
   build-arm64:
-    runs-on: macos-26
+    runs-on: xcode-27
     
     steps:
     - uses: actions/checkout@v6
-    - name: Setup Xcode
-      uses: maxim-lobanov/setup-xcode@v1
-      with:
-        xcode-version: "26.6"
-
     - name: Setup .NET
       uses: actions/setup-dotnet@v5
       with:
