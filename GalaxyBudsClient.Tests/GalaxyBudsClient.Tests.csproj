@@ -1,18 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <Import Project="../GalaxyBudsClient/Host.props"/>
     <PropertyGroup Condition="'$(_HostIsWindows)'=='true'">
-        <TargetFramework>net10.0-windows10.0.19041</TargetFramework>
+        <TargetFramework>net11.0-windows10.0.26100</TargetFramework>
+        <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
     </PropertyGroup>
     <PropertyGroup Condition="'$(_HostIsOSX)'=='true'">
         <ApplicationId>me.timschneeberger.galaxybudsclient.tests</ApplicationId>
         <RuntimeIdentifiers>osx-x64;osx-arm64</RuntimeIdentifiers>
         <OutputType>Exe</OutputType>
-        <TargetFramework>net10.0</TargetFramework>
+        <TargetFramework>net11.0</TargetFramework>
         <LinkMode>None</LinkMode>
         <!-- TODO it cannot find any of the main assembly's dependencies when running -->
     </PropertyGroup>
     <PropertyGroup Condition="'$(_HostIsLinux)'=='true'">
-        <TargetFramework>net10.0</TargetFramework>
+        <TargetFramework>net11.0</TargetFramework>
     </PropertyGroup>
     
     <PropertyGroup>

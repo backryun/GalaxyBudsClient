@@ -3,14 +3,16 @@
   
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net10.0-android36.1</TargetFramework>
-    <TargetFrameworkVersion>v14.0</TargetFrameworkVersion>
+    <TargetFramework>net11.0-android37.0</TargetFramework>
+    <TargetFrameworkVersion>v17.0</TargetFrameworkVersion>
     <RuntimeIdentifiers>android-arm;android-arm64;android-x86;android-x64</RuntimeIdentifiers>
     
     <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
     <Nullable>enable</Nullable>
     <AndroidPackageFormats>apk;aab</AndroidPackageFormats>
     <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
+    <!-- .NET 11 defaults to CoreCLR on Android; keep Mono to preserve existing AOT behavior -->
+    <UseMonoRuntime>true</UseMonoRuntime>
     
     <DefineConstants>$(DefineConstants);Android</DefineConstants>
   </PropertyGroup>
@@ -45,7 +47,7 @@
           
   <ItemGroup>
     <PackageReference Include="Avalonia.Android" Version="$(AvaloniaVersion)" />
-    <PackageReference Include="Microsoft.NET.Runtime.MonoAOTCompiler.Task" Version="10.0.1" />
+    <PackageReference Include="Microsoft.NET.Runtime.MonoAOTCompiler.Task" Version="11.0.0" />
     <PackageReference Include="Xamarin.AndroidX.Core.SplashScreen" Version="1.2.0" />
   </ItemGroup>
 
