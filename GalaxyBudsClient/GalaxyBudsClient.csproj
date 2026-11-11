@@ -104,13 +104,13 @@
         <PackageReference Include="Avalonia.Markup.Xaml.Loader" Version="$(AvaloniaVersion)" />
         <PackageReference Include="Avalonia.Themes.Fluent" Version="$(AvaloniaVersion)" />
         <PackageReference Include="ReactiveUI.Avalonia" Version="11.3.8" />
-        <PackageReference Include="Svg.Controls.Skia.Avalonia" Version="11.3.6.2" />
-        <PackageReference Include="Xaml.Behaviors.Avalonia" Version="11.3.9" />
+        <PackageReference Include="Svg.Controls.Skia.Avalonia" Version="11.3.9.5" />
+        <PackageReference Include="Xaml.Behaviors.Avalonia" Version="11.3.9.6" />
         <PackageReference Include="AvaloniaHex" Version="0.1.10" />
-        <PackageReference Include="BouncyCastle.Cryptography" Version="2.6.2" />
+        <PackageReference Include="BouncyCastle.Cryptography" Version="2.7.0" />
         <PackageReference Include="CommandLineParser" Version="2.9.2-ci-210" />
         <PackageReference Include="Config.Net" Version="5.2.1" />
-        <PackageReference Include="CS-Script" Version="4.13.0" />
+        <PackageReference Include="CS-Script" Version="4.14.14" />
         <PackageReference Include="FluentAvaloniaUI" Version="2.4.1" />
         <PackageReference Include="FluentIcons.Avalonia.Fluent" Version="2.0.316.1" />
         <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="6.0.0" />
@@ -123,11 +123,11 @@
         </PackageReference>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="11.0.0" />
         <PackageReference Include="ReactiveUI.Fody" Version="19.5.41" /> <!-- Needed due to workaround in SettingsData.cs -->
-        <PackageReference Include="ReactiveUI.SourceGenerators" Version="2.5.1" PrivateAssets="all" />
+        <PackageReference Include="ReactiveUI.SourceGenerators" Version="2.6.30" PrivateAssets="all" />
         <PackageReference Include="ScottPlot.Avalonia" Version="5.1.57" />
-        <PackageReference Include="Sentry" Version="6.0.0" />
-        <PackageReference Include="Sentry.Serilog" Version="6.0.0" />
-        <PackageReference Include="Serilog" Version="4.3.0" />
+        <PackageReference Include="Sentry" Version="6.12.1" />
+        <PackageReference Include="Sentry.Serilog" Version="6.12.1" />
+        <PackageReference Include="Serilog" Version="4.4.0" />
         <PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
         <PackageReference Include="Serilog.Sinks.Debug" Version="3.0.0" />
         <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />

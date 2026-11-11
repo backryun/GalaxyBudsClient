@@ -43,7 +43,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Serilog" Version="4.3.0" />
+      <PackageReference Include="Serilog" Version="4.4.0" />
     </ItemGroup>
     <ItemGroup>
       <None Remove="Native\Build\NativeInterop.build\Release\NativeInterop.build\Objects-normal\arm64\BluetoothDeviceWatcher.d" />
